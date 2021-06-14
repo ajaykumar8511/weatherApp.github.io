@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css');
+
+body {
+  font-family     : 'PT Sans', sans-serif !important;
+  background-color: #121212 !important;
+}
+
+*:hover {
+  -webkit-transition: all 1s ease;
+  transition        : all 1s ease;
+}
+
+.circle {
+  position  : absolute;
+  top       : 0;
+  left      : 0;
+  width     : 100%;
+  height    : 100%;
+  background: linear-gradient(6deg, #0700b8 0%, #00ff88 100%);
+  clip-path : circle(9% at right 70%);
+}
+
+.circle2 {
+  position  : absolute;
+  top       : 0;
+  left      : 0;
+  width     : 100%;
+  height    : 100%;
+  background: linear-gradient(8deg, #FC466B 0%, #3F5EFB 100%);
+  clip-path : circle(15% at 10% 10%);
+}
+
+.intro {
+  color          : #1E1E1E;
+  filter         : drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.8));
+  display        : flex;
+  flex-direction : column;
+  align-content  : center;
+  text-align     : left;
+  justify-content: center;
+}
+
+.intro h1 {
+  font-size  : 80px;
+  font-weight: 700;
+}
+
+.intro small {
+  font-size  : 60px;
+  font-weight: 400;
+}
+
+
+/* ||||||||||||||||||||||||||||||||||||||| Searchbar CSS ||||||||||||||||||||||||||||||||||||||| */
+
+.searchbar {
+  margin-bottom   : auto;
+  margin-top      : auto;
+  height          : 50px;
+  background      : #1E1E1E !important;
+  filter       : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.8));
+  border-radius: 5px;
+  padding      : 8px;
+  z-index      : 1;
+}
+
+.search_input {
+  color      : #eee;
+  border     : 0;
+  outline    : 0;
+  background : none;
+  width      : 250px;
+  line-height: 30px;
+}
+
+.search_icon {
+  height         : 40px;
+  width          : 40px;
+  float          : right;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  color          : #eee;
+  background     : none;
+  border         : none;
+  text-decoration: none;
+}
+
+.search_icon :hover {
+  color: #7D56CC;
+}
+
+
+
+.weather-card {
+  overflow           : hidden;
+  width              : 100%;
+  text-align         : center;
+  min-height         : 550px;
+  border             : none;
+  background         : #1E1E1E !important;
+  filter             : drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.8));
+
+}
+
+
+.weather-card .background {
+  width  : 100%;
+  height : 100%;
+  opacity: 0.9;
+}
+
+.weather-card .card-content {
+  width   : 100%;
+  padding : 15px 25px;
+  position: absolute;
+  left    : 0;
+  top     : 10%;
+}
+
+.weather-card .place {
+  font-weight: 700;
+  font-size  : 40px;
+  color: #eee;
+}
+
+.weather-card .date {
+  margin                    : 5px;
+  font-weight               : 400;
+  font-size                 : 20px;
+  margin-bottom             : 20px;
+  color                     : #eee;
+}
+
+.weather-card .weatherIcon {
+  margin-top             : 40px;
+  font-size              : 70px;
+  text-align             : center;
+  background             : -webkit-linear-gradient(#cccccc, #7D56CC);
+  -webkit-background-clip: text;
+  background-clip        : text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.weather-card .temperature {
+  color      : #eee !important;
+  margin     : 5px;
+  font-weight: 400;
+  font-size  : 25px;
+
+}
+
+.weather-card .weatherCondition {
+  color      : #eee !important;
+  margin     : 5px;
+  font-weight: 400;
+  font-size  : 15px;
+
+}
+
+.weather-card .extra_details {
+  margin-left   : 8%;
+  font-weight   : 400;
+  font-size     : 15px !important;
+  text-align    : left !important;
+}
+
+
+.weather-card .extra_details i {
+  justify-content   : left !important;
+  font-size         : 15px !important;
+  margin            : 2px !important;
+  text-align        : center !important;
+  height            : 20px;
+  width             : 20px;
+}
+
+.extra_info {
+  color: #eee;
+
+}
+
+.feel-details {
+  color: #ff737c !important;
+
+}
+
+.humidity-details {
+  color: #9494ff !important;
+}
+
+.wind-details {
+  color: #ff90da !important;
+}
+
+.sunrise-details {
+  color: #f3e77c !important;
+}
+
+.sunset-details {
+  color: #f02836 !important;
+}
+
+.sealevel-details {
+  color: #73e6fa !important;
+}

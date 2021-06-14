@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WeatherApp By AjayPatani</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9080d154de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <br>
+    <div class="bootstrap">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-sm-8 intro">
+                    <h1>Weather App</h1>
+                    <small> By Ajay Patani </small>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-8 holder">
+                    <div class="searchbar">
+                        <form class="weatherLocation">
+                            <input class="search_input" placeholder="Add location..." type="text" />
+                            <button class="search_icon"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <br>
+                    <div class="card weather-card">
+                        <div class="card-content">
+                            <h2 class="place">City Name</h3>
+                                <small class="date">Date</small>
+                                <br>
+                                <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
+                                <div class="temperature"><span>00.00° </span>C</div>
+                                <div class="weatherCondition">Weather Condition</div>
+                                <br>
+                                <div class="row extra_details">
+                                    <div class="col-6 col-md-6  ">
+                                        <div>
+                                            <div class="extra_info feel-details">
+                                                <i class="wi wi-thermometer"></i>&nbsp;
+                                                <span class='feel_value'>Feels Like</span>
+                                            </div>
+                                            <div class="extra_info humidity-details">
+                                                <i class="wi wi-humidity"></i>&nbsp;
+                                                <span class='humidity_value'>Humidity </span> %
+                                            </div>
+                                            <div class="extra_info wind-details">
+                                                <i class="wi wi-strong-wind"></i>&nbsp;
+                                                <span class='wind_value'>Wind </span> m/s
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-6 ">
+                                        <div>
+                                            <div class="extra_info sunrise-details">
+                                                <i class="wi wi-sunrise"></i>&nbsp;
+                                                <span class='sunrise_value'>SunRise</span>
+                                            </div>
+                                            <div class="extra_info sunset-details">
+                                                <i class="wi wi-sunset"></i>&nbsp;
+                                                <span class='sunset_value'>SunSet</span>
+                                            </div>
+                                            <div class="extra_info sealevel-details">
+                                                <i class="wi wi-tsunami"></i>&nbsp;
+                                                <span class='sea_value'>Sea </span> hPa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <script src="js/app.js"></script> <!-- absolute path -->
+</body>
+
+</html>
