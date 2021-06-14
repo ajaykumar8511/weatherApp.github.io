@@ -24,7 +24,7 @@ In this project you have to just type city Name and weather information will be 
 card contains this type of information
 
 <p align="center">
-    <img src="Project_Image\weathercard.PNG" alt="project-ss" width="200px" >
+    <img src="Project_Image\weathercard.PNG" alt="project-ss" width="180px" >
 </p>
 
 <br/>
