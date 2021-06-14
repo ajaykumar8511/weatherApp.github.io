@@ -18,7 +18,7 @@
 In this project you have to just type city Name and weather information will be showed on card.
 
 <p align="center">
-    <img src="Project_Image\projectImage.PNG" alt="project-ss" width="700px" >
+    <img src="Project_Image\weatherApp.gif" alt="project-ss" width="700px" >
 </p>
 
 card contains this type of information
